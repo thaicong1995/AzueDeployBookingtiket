@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirPlane", "AirPlane\AirPlane.csproj", "{77D3FFE4-9921-4FE4-8374-C6738B6F0D15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70B05474-BA4D-467A-8C84-042895B72FF6} = {70B05474-BA4D-467A-8C84-042895B72FF6}
+		{84CE5669-8E6C-428F-BEE4-3C2437AF2085} = {84CE5669-8E6C-428F-BEE4-3C2437AF2085}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{70B05474-BA4D-467A-8C84-042895B72FF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Login", "Login\Login.csproj", "{84CE5669-8E6C-428F-BEE4-3C2437AF2085}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70B05474-BA4D-467A-8C84-042895B72FF6} = {70B05474-BA4D-467A-8C84-042895B72FF6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMailAndPayMent", "SendMailAndPayMent\SendMailAndPayMent.csproj", "{0EDFA646-2C04-40F3-8512-D9EC8DB59083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77D3FFE4-9921-4FE4-8374-C6738B6F0D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D3FFE4-9921-4FE4-8374-C6738B6F0D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D3FFE4-9921-4FE4-8374-C6738B6F0D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D3FFE4-9921-4FE4-8374-C6738B6F0D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B05474-BA4D-467A-8C84-042895B72FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B05474-BA4D-467A-8C84-042895B72FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B05474-BA4D-467A-8C84-042895B72FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B05474-BA4D-467A-8C84-042895B72FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CE5669-8E6C-428F-BEE4-3C2437AF2085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CE5669-8E6C-428F-BEE4-3C2437AF2085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CE5669-8E6C-428F-BEE4-3C2437AF2085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CE5669-8E6C-428F-BEE4-3C2437AF2085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDFA646-2C04-40F3-8512-D9EC8DB59083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDFA646-2C04-40F3-8512-D9EC8DB59083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDFA646-2C04-40F3-8512-D9EC8DB59083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDFA646-2C04-40F3-8512-D9EC8DB59083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A166C233-FED4-494C-BAF6-59B8F068FB7B}
+	EndGlobalSection
+EndGlobal
